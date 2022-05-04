@@ -1,0 +1,8 @@
+[user]
+	name = George Jung
+	email = hywook4@gmail.com
+
+[alias]
+	co = "!git checkout $(git branch | fzf)"
+	cob = "!git checkout -b"
+    rmb = "!git branch -d $(git branch | fzf)"
